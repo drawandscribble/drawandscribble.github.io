@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+		<title>App</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/jquery-1.11.2.min.js"> </script>
+    <link rel="stylesheet" href="bootstrap-tagsinput/dist/bootstrap-tagsinput.css" />
+    <script src="bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+		<script src="js/typeahead.bundle.js"></script>
+
+		<!--script src="js/leaflet/leaflet.js"></script-->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+		<div class="container">
+			<div class ="header">
+				<h2>EveryOne Eats</h2>
+			</div>
+				<div class="row">
+						<div class="col">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-cutlery"></i></span>
+									<input id="cuisine"  type="text"  class="form-control" value="" data-role="tagsinput"/>
+								</div>
+							</div>
+							<div class="col">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+									<input id="place"   type="text"  class="form-control" value="Northridge" data-role="tagsinput"/>
+								</div>
+							</div>
+							<div class="col">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-hourglass"></i></span>
+									<span id="time"></span>
+								</div>
+							</div>
+							<div class="col-8">
+								<div class="input-group">
+									<button class="btn btn-md"><i class="glyphicon glyphicon-search"></i></button>
+								</div>
+							</div>
+			  </div>
+			<div class="row" id="results">
+						<div class="col">
+						</div>
+			</div>
+    </div>
+	</body>
+<script src="js/main.js"></script>
+</html>
